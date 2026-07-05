@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models and data
+models/
+*.model
+*.bin
+
+# Logs
+*.log
+logs/
+
+# Runtime files (CDC state)
+cdc_hash_store.json
+cdc_metadata.json
+lakehouse/
+
+# Benchmark data (generated, not committed)
+data/benchmark_corpus/
+
+
+# Temporary files
+*.tmp
+*.bak
+COMMIT_MESSAGE.txt
+
+# Internal project documents (not for public repo)
+docs/PROJECT_INTERNAL.md
+docs/STYLE_GUIDE.md
+docs/sample research papers/
+docs/BENCHMARK_STRATEGY_FINAL.md
+
+# Personal and temporary documentation
+*VERIFICATION*.md
+*CHANGES*.md
+*TEST_RESULTS*.md
+
+# Docker volumes
+volumes/
+
+# Test outputs
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
